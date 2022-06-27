@@ -3,7 +3,7 @@ import Character from './Character';
 
 function NavPage(props) {
   return (
-    <div className='d-flex justify-content-between align-items-center p-5'>
+    <div className='d-flex justify-content-around align-items-center p-5'>
       <button className='btn btn-primary btn-sm' onClick={() => props.setPage(props.page-1)}>
         Página Anterior: {props.page-1} </button>
       <p>Página Actúal: {props.page}</p>
